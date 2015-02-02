@@ -17,10 +17,11 @@
 /* Image related properties*/
 
 img {
+    position: center;
     top: 0;
     width: 100%;
-    height: 380px
-    padding-top: 10px;
+    height: 380px;
+    padding: 0px;
 }
 
 /* Content */
@@ -31,11 +32,11 @@ img {
 }
 
 body{
-    margin-left: 20px;
+    margin: 0px 0px 0px 20px;
 }
 
 p {
-    padding-right: 0px;
+    padding: 0px;
     font-weight: 500;
     line-height: 32px;
     font-size: 15px;
@@ -43,7 +44,7 @@ p {
 
 .features {
     padding: 10px 30px 0px 25px;
-    margin-top: 45px;
+    margin: 45px 0px 0px 0px;
     line-height: 30px;
 }
 
@@ -52,8 +53,9 @@ p {
 }
 
 .description {
-    color: #666666;
+    color: #666;
     padding: 0px 25px 5px 0px;
+    margin: 0px 0px 0px 15px;
 }
 
 .row {
@@ -66,15 +68,14 @@ p {
 .border {
     border-style: solid;
     border-width: 1px;
-    border-color: #cccccc;
-    margin-top: 30px;
+    border-color: #ccc;
+    margin: 30px 0px 0px 0px;
 }
 
 h1 {
-    color: #666666;
+    color: #666;
     font-size: 350%;
-    padding-top: 8px;
-    padding-left: 165px;
+    padding: 8px 0px 0px 165px;
     text-align: center;
 }
 
@@ -83,7 +84,7 @@ h2 {
     color: #f07c17;
     font-size: 175%;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding: 0px 0px 10px 0px;
     margin: 20px 0px 20px;
 }
 
@@ -92,6 +93,5 @@ h2 {
 }
 
 .left-container {
-    margin-top: 22px;
+    margin: 22px 0px 0px 0px;
 }
-
